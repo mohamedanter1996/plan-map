@@ -1,0 +1,137 @@
+*{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+.bg-custom{
+    background-color: #F4F4F4;
+    width: 80%;
+    margin: auto;
+    padding: 2% 0%;
+}
+.plans{
+    
+    text-align: center;
+    height: 43%;
+}
+
+.plans .plan{
+   
+    width: 31%;
+   background-color: white;
+    margin:  1%;
+    display: inline-block;
+    border-radius: 10px;
+      overflow:hidden;
+      cursor: pointer;
+}
+
+.plans .plan .title{
+    background-color: #09c;
+    padding: 4%;
+      
+}
+
+.plans .plan .title span{
+   
+    font-weight: 700;
+}
+
+
+
+.plans .plan .content h3{
+   
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+
+.plans .plan .content .lines{
+    
+    text-align: center;
+    margin-top: 5px;
+}
+
+.plans .plan .content .lines hr{
+    background-color:whitesmoke;
+    height: 5px;
+ border-radius: 4px;
+}
+
+.tall{
+    width: 75%;
+}
+.short{
+    width: 50%;
+}
+
+.serves{
+    background-color: white;
+ width: 98%;
+ margin: auto;
+ border-radius: 10px;
+}
+
+.serves .serves-bg{
+    padding-top: 1%;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+
+
+.float-right{
+    float: right;
+}
+
+.serves .serves-bg meter{
+   
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.plans .plan:hover{
+
+  
+    
+    width: 34%;
+   margin: 0%;
+   
+}
+
+.plans .plan:hover .title{
+   padding: 4%;
+   margin-top: 0%;
+}
+
+.plans .plan:hover .title span{
+    
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.plans .plan:hover .content .lines{
+
+   
+    padding-top: 3%;
+}
+
+.plans .plan:hover + div{
+
+  
+   margin-left: 0%;
+    
+}
+
+.plans .plan:has(+.plan:hover){
+    margin-right: 0%;
+}
+
+
